@@ -1,6 +1,7 @@
 from django.shortcuts import render
 
 def index(request):
-    return render(request,'aluno/index.html')
+    return render(request, 'index.html')
 
-# Create your views here.
+def cadastro(request):
+    return render(request, 'aluno/cadastro.html')
